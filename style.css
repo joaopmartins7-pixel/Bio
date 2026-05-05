@@ -22,6 +22,19 @@ button {
     background: var(--color-grey-700, #333);
 }
 
+button:hover {
+    cursor: pointer;
+    display: flex;
+    padding: var(--spacing-150, 12px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-100, 8px);
+    align-self: stretch;
+    border-radius: 9px;
+    background: var(--color-green, #abda1f);
+}
+
+
 .segundo {
     display: flex;
     flex-direction: column;
@@ -67,13 +80,18 @@ h1 {
     /* 21px */
 }
 
-.primeiro{
+.primeiro {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-200, 1px);
 }
 
-body{
+body {
     background-color: black;
+}
+
+img:hover{
+    cursor: pointer;
+     width: 96px;
 }
